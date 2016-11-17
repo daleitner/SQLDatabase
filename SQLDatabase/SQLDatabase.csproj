@@ -31,14 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Base">
-      <HintPath>..\..\dlls\Base.dll</HintPath>
+      <HintPath>..\References\Base.dll</HintPath>
     </Reference>
     <Reference Include="FileWorker">
-      <HintPath>..\..\dlls\FileWorker.dll</HintPath>
+      <HintPath>..\References\FileWorker.dll</HintPath>
     </Reference>
-    <Reference Include="SQLite.NET, Version=0.21.1869.3794, Culture=neutral, PublicKeyToken=c273bd375e695f9c">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\dlls\SQLite.NET.dll</HintPath>
+    <Reference Include="SQLite.NET">
+      <HintPath>..\References\SQLite.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
