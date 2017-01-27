@@ -109,6 +109,11 @@ namespace SQLDatabase
 			}
 			return ret;
 		}
+
+		public void ExecuteCommand(string statement)
+		{
+			this.dataBase.ExecuteCommand(statement);
+		}
 		#endregion
 
 		#region private methods
